@@ -1,0 +1,16 @@
+{
+  "name": "minima-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark syntax theme for Atom",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "author": "Alex Fedoseev <alex.fedoseev@gmail.com>",
+  "repository": "https://github.com/alexfedoseev/atom-minima-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
