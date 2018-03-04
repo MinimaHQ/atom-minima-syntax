@@ -5,9 +5,10 @@ atom-text-editor {
   color: @syntax-text-color;
 
   .line.cursor-line {
-    // Not sure why darken is required to make selected line bg color
-    // look consistent w/ selected gutter's bg color
-    background-color: darken(@syntax-gutter-background-color-selected, 3%);
+    // Not sure why different alpha value is required
+    // to make selected line bg color look consistent
+    // w/ selected gutter's bg color
+    background-color: fade(@syntax-gutter-background-color-selected, 5%);
   }
 
   .wrap-guide {
